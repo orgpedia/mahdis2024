@@ -1,0 +1,165 @@
+src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
+8
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202401031700202135.pdf: >शासन निर्णय क्रमांक< >इडीडी-२०२१/प्र. क्र. ७१/<
+	elapsed_time:202401031700202135.pdf: 0.000110
+  exec_task: doc_translator_hf 
+    Paras: #60 Sentences: #53
+	[0]  #words: 178 #sentences: 32
+	After generate: 4 MB
+	[0]  #words: 265 #sentences: 45
+	After generate: 4 MB
+	[1]  #words: 261 #sentences: 21
+	After generate: 4 MB
+	[2]  #words: 21 #sentences: 2
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202401041516271835.pdf: >शासन निर्णय क्रमांक< >एमआयएस-२०१६/प्र.क्र.६०/अ.क.१<
+	elapsed_time:202401041516271835.pdf: 0.000085
+  exec_task: doc_translator_hf 
+    Paras: #115 Sentences: #30
+	[0]  #words: 52 #sentences: 16
+	After generate: 4 MB
+	[0]  #words: 261 #sentences: 73
+	After generate: 4 MB
+	[1]  #words: 259 #sentences: 33
+	After generate: 4 MB
+	[2]  #words: 264 #sentences: 25
+	After generate: 4 MB
+	[3]  #words: 267 #sentences: 23
+	After generate: 4 MB
+	[4]  #words: 61 #sentences: 5
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202401051714409535.pdf: >शासन निर्णय क्रमांक< >दिविम-२०२३/प्र.क्र.१६/दिव्यांग कल्याण-३<
+	elapsed_time:202401051714409535.pdf: 0.000076
+  exec_task: doc_translator_hf 
+    Paras: #71 Sentences: #15
+	[0]  #words: 35 #sentences: 7
+	After generate: 4 MB
+	[0]  #words: 260 #sentences: 55
+	After generate: 4 MB
+	[1]  #words: 260 #sentences: 23
+	After generate: 4 MB
+	[2]  #words: 121 #sentences: 10
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202401121212184635.pdf: >शासन निर्णय क्रमांक< >एमआयएस-२०१६/प्र.क्र.२४८/अ.क.१<
+	elapsed_time:202401121212184635.pdf: 0.000076
+  exec_task: doc_translator_hf 
+    Paras: #46 Sentences: #0
+	[0]  #words: 263 #sentences: 51
+	After generate: 4 MB
+	[1]  #words: 146 #sentences: 13
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	**FirstPage: 10: दिव्यांग-२०२४/प्र.क्र.१०/दिव्यांग कल्याण-२ ==शासन निर्णय क्रमांक :- दिव्यांग-२०२४/प्र.क्र.१०/दिव्यांग कल्याण-२
+	extract_order_number:202402011637473135.pdf: >शासन निर्णय क्रमांक< >दिव्यांग-२०२४/प्र.क्र.१०/दिव्यांग कल्याण-२<
+	elapsed_time:202402011637473135.pdf: 0.000934
+  exec_task: doc_translator_hf 
+    Paras: #22 Sentences: #0
+	[0]  #words: 184 #sentences: 26
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202402071746194335.pdf: >शासन निर्णय क्रमांक< >दिविम-२०२३/प्र.क्र.१४/दिव्यांग कल्याण-३<
+	elapsed_time:202402071746194335.pdf: 0.000080
+  exec_task: doc_translator_hf 
+    Paras: #66 Sentences: #15
+	[0]  #words: 34 #sentences: 7
+	After generate: 4 MB
+	[0]  #words: 257 #sentences: 52
+	After generate: 4 MB
+	[1]  #words: 267 #sentences: 21
+	After generate: 4 MB
+	[2]  #words: 78 #sentences: 6
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202402291717235335.pdf: >शासन परिपत्रक क्रमांक< >दिव्यांग-२०१९/प्र.क्र.२५१/दि.क.२<
+	elapsed_time:202402291717235335.pdf: 0.000100
+  exec_task: doc_translator_hf 
+    Paras: #25 Sentences: #2
+	[0]  #words: 17 #sentences: 2
+	After generate: 4 MB
+	[0]  #words: 274 #sentences: 29
+	After generate: 4 MB
+	[1]  #words: 44 #sentences: 2
+	After generate: 4 MB
+  exec_task: text_writer 
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+  exec_task: word_recognizer 
+  exec_task: pdftable_finder 
+	==Total:0 Errors=0 
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403051650199235.pdf: >शासन निर्णय क्रमांक< >दिव्यांग-२०२३/प्र. क्र. ०८/दि. क. ०४<
+	elapsed_time:202403051650199235.pdf: 0.000090
+  exec_task: doc_translator_hf 
+    Paras: #89 Sentences: #0
+	[0]  #words: 266 #sentences: 51
+	After generate: 4 MB
+	[1]  #words: 257 #sentences: 23
+	After generate: 4 MB
+	[2]  #words: 269 #sentences: 22
+	After generate: 4 MB
+	[3]  #words: 76 #sentences: 6
+	After generate: 4 MB
+  exec_task: text_writer 
+#docs: 8 #processed: 8
