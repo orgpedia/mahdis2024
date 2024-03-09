@@ -1,20 +1,3 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 9
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-  exec_task: word_recognizer 
-  exec_task: pdftable_finder 
-	==Total:49 Errors=49 TableEmptyBodyCellError=49
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403071629336135.pdf: >शासन निर्णय क्रमांक< >आस्था-२०२४/प्र.क्र.११/दि.क.४<
-	elapsed_time:202403071629336135.pdf: 0.000074
-  exec_task: doc_translator_hf 
-    Paras: #49 Sentences: #0
-	[0]  #words: 257 #sentences: 46
-	After generate: 3 MB
-	[1]  #words: 121 #sentences: 10
-	After generate: 3 MB
-  exec_task: text_writer 
-#docs: 9 #processed: 1
+#docs: 9 #processed: 0
