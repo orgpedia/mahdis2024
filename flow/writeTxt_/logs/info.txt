@@ -1,3 +1,33 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-9
-#docs: 9 #processed: 0
+10
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403111642264035.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+	Tesseract on page: 2
+	Tesseract on page: 3
+	Tesseract on page: 4
+	Tesseract on page: 5
+  exec_task: pdftable_finder 
+	==Total:52 Errors=52 TableEmptyBodyCellError=52
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403111642264035.pdf: >शासन निर्णय क्रमांक< >इडीडी-२०१९/प्र.क्र.१४/दि.क.१<
+	elapsed_time:202403111642264035.pdf: 0.000092
+  exec_task: doc_translator_hf 
+    Paras: #50 Sentences: #58
+	[0]  #words: 259 #sentences: 53
+	After generate: 5 MB
+	[0]  #words: 259 #sentences: 52
+	After generate: 5 MB
+	[1]  #words: 258 #sentences: 23
+	After generate: 5 MB
+	[2]  #words: 266 #sentences: 16
+	After generate: 5 MB
+	[3]  #words: 167 #sentences: 6
+	After generate: 5 MB
+  exec_task: text_writer 
+#docs: 10 #processed: 1
