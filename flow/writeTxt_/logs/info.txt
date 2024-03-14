@@ -1,3 +1,25 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
-10
-#docs: 10 #processed: 0
+11
+  exec_task: pdf_cid_info 
+  exec_task: pdf_cid_reader 
+	202403141639096435.pdf missing_cmaps: sakalmarathinormal
+  exec_task: word_recognizer 
+	Tesseract on page: 0
+	Tesseract on page: 1
+  exec_task: pdftable_finder 
+	==Total:5 Errors=5 TableEmptyBodyCellError=5
+  exec_task: line_finder 
+  exec_task: para_finder 
+  exec_task: extract_order_number 
+	extract_order_number:202403141639096435.pdf: >शासन निर्णय क्रमांक< >दिव्यांग-२०२४/प्र. क्र. १२/दि. क. ०४<
+	elapsed_time:202403141639096435.pdf: 0.000125
+  exec_task: doc_translator_hf 
+    Paras: #47 Sentences: #7
+	[0]  #words: 51 #sentences: 7
+	After generate: 2 MB
+	[0]  #words: 262 #sentences: 48
+	After generate: 10 MB
+	[1]  #words: 124 #sentences: 9
+	After generate: 10 MB
+  exec_task: text_writer 
+#docs: 11 #processed: 1
