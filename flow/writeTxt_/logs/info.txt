@@ -1,30 +1,3 @@
 src_lang: mar_Deva tgt_lang: eng_Latn ai4bharat/indictrans2-indic-en-dist-200M
 12
-  exec_task: pdf_cid_info 
-  exec_task: pdf_cid_reader 
-	202403161549384735.pdf missing_cmaps: dvotsurekhmrbold, dvotsurekhmr
-  exec_task: word_recognizer 
-	Tesseract on page: 0
-	Tesseract on page: 1
-	Tesseract on page: 2
-	Tesseract on page: 3
-	Tesseract on page: 4
-  exec_task: pdftable_finder 
-	==Total:0 Errors=0 
-  exec_task: line_finder 
-  exec_task: para_finder 
-  exec_task: extract_order_number 
-	extract_order_number:202403161549384735.pdf: Unable to find order
-	elapsed_time:202403161549384735.pdf: 0.000050
-  exec_task: doc_translator_hf 
-    Paras: #70 Sentences: #0
-	[0]  #words: 259 #sentences: 52
-	After generate: 3 MB
-	[1]  #words: 260 #sentences: 19
-	After generate: 3 MB
-	[2]  #words: 268 #sentences: 14
-	After generate: 3 MB
-	[3]  #words: 243 #sentences: 6
-	After generate: 3 MB
-  exec_task: text_writer 
-#docs: 12 #processed: 1
+#docs: 12 #processed: 0
